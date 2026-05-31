@@ -56,7 +56,7 @@ const localPreviewHosts = ["localhost", "127.0.0.1"];
 
 if (localPreviewHosts.includes(window.location.hostname)) {
   const localLinks = {
-    victor: "http://localhost:4175/",
+    victor: "https://victorcampeanu.me/",
     gerard: "http://localhost:4173/",
     tomas: "http://localhost:4176/"
   };
