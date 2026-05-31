@@ -38,8 +38,7 @@ body {
   gap: 24px;
 }
 
-.intro,
-.details {
+.intro {
   background: rgba(255, 255, 255, 0.86);
   border: 1px solid var(--line);
   border-radius: 8px;
@@ -57,7 +56,6 @@ body {
 }
 
 h1,
-h2,
 p {
   margin-top: 0;
 }
@@ -70,13 +68,7 @@ h1 {
   letter-spacing: 0;
 }
 
-h2 {
-  margin-bottom: 12px;
-  font-size: clamp(1.5rem, 3vw, 2.1rem);
-}
-
-.summary,
-.details p {
+.summary {
   max-width: 720px;
   margin-bottom: 0;
   color: var(--muted);
