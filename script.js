@@ -52,6 +52,19 @@ function setText(id, value) {
 }
 
 const selected = currentPerson();
+const localPreviewHosts = ["localhost", "127.0.0.1"];
+
+if (localPreviewHosts.includes(window.location.hostname)) {
+  const localLinks = {
+    victor: "http://localhost:4175/",
+    gerard: "http://localhost:4173/",
+    tomas: "http://localhost:4176/"
+  };
+
+  Object.entries(localLinks).forEach(([person, href]) => {
+    document.querySelector(`[data-person-link="${person}"]`)?.setAttribute("href", href);
+  });
+}
 
 if (selected) {
   const page = people[selected];
