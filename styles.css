@@ -126,6 +126,16 @@ h1 {
   font-weight: 800;
 }
 
+.person-image {
+  width: 68px;
+  height: 68px;
+  flex: 0 0 68px;
+  display: block;
+  object-fit: cover;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
 .person-card:nth-child(2) .initial {
   background: var(--gold);
 }
