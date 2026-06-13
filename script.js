@@ -68,7 +68,7 @@ if (localPreviewHosts.includes(window.location.hostname)) {
 
 if (selected) {
   const page = people[selected];
-  document.title = `${page.title} | Victor Family Sites`;
+  document.title = `${page.title} | The Family Hub`;
   setText("site-label", page.label);
   setText("page-title", page.title);
   setText("page-summary", page.summary);

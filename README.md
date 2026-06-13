@@ -1,4 +1,4 @@
-# Victor Family Sites
+# The Family Hub
 
 A very small static website for Victor, Gerard, and Tomas.
 
